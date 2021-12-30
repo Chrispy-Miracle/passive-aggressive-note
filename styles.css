@@ -1,0 +1,78 @@
+body {
+    background-color: orangered;
+    color:rgb(252, 194, 173);
+    display: grid;
+    place-items: center;
+}
+h1 {
+    font-family: Brush Script MT, Brush Script Std, cursive;
+    font-size: 15vh;
+    text-shadow: 2px 2px black;
+    margin-top: 10px;
+}
+form {
+    background-color: rgb(241, 148, 114);
+    border: 2px solid black;
+    width: 85vw;
+    height: 93%;
+    color: black;
+    padding: 4vw;
+}
+.flex-container {
+    display: flex;
+}
+.check-field {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: left;
+    text-align: left;
+}
+#noticed {
+    width: 85%;
+    height: 10vh;
+    margin-left: 8vw;
+}
+.text-input {
+    width: 28vw;
+    height: 4vh;
+    margin: 3vh 1vw;
+}
+.write-in {
+    width: 33vw;
+    height: 4vh;
+    margin-top: 3vh;
+    /* flex: 1 0 10%; */
+}
+.checks {
+    margin-right: 4vw;
+    margin-left: 3.5vw;
+    height: 10vh;
+} 
+.options {
+    flex:1 0 20%;
+}
+#bottom-box{
+    font-family: sans-serif;
+    text-align: center;
+    color: black;
+    background-color: rgb(241, 148, 114);
+    width: 90vw;
+    border: 2px solid black;
+    margin-top: 5vh;
+}
+#grid-container {
+    display: grid;
+    place-items: center;
+}
+button {
+    font-size: 3vh;
+    height: 10vh;
+    width: 15vw;
+    margin-top: 4vh;
+    /* margin-bottom: 2vh; */
+}
+button:hover {
+    background-color: orangered;
+    border-radius: 7%;
+    box-shadow: 2px 2px black;
+}
